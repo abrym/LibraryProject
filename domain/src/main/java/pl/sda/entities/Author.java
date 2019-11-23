@@ -9,7 +9,9 @@ import javax.persistence.*;
 @Getter
 @Setter
 public class Author {
-
+    public static void main(String[] args) {
+        System.out.println("Hello World!!!");
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //generuje klucz i wykorzystuje klucz identyfikowany
     private Long id;
